@@ -157,6 +157,31 @@ section div img {
   width: 100%;
 }
 
+.next-project h3 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+  color: #151515;
+  font-size: 2.2em;
+  line-height: 0.95;
+  font-weight: 300;
+  transition: 0.3s;
+}
+
+.next-project {
+  padding-top: 8em;
+  padding-bottom: 8em;
+  margin-right: 32px;
+  text-align: right;
+}
+
+.next-project a {
+  text-decoration: none;
+}
+
+.next-project h3:hover {
+  color: #15151594;
+}
+
 /*  ------------ FOOTER ------------  */
 footer {
   left: 0;
@@ -168,13 +193,8 @@ footer {
   padding: 10px;
 }
 
-span {
-  font-size: 16px;
-}
-
 .footerlink {
   color: #000;
-  text-decoration: none;
 }
 
 .footerlink:hover {

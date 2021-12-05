@@ -75,11 +75,11 @@ header.sticky .navigation a:hover {
 .TopContainer h2 {
   font-family: "David Libre", serif;
   color: #fff;
-  font-size: 3.4em;
+  font-size: 3.5em;
   line-height: 1.2em;
   font-weight: 400;
-  margin-top: 1.4em;
-  margin-left: 0.4em;
+  margin-top: 1.5em;
+  margin-left: 0.3em;
 }
 
 .BottomContainer {
@@ -92,10 +92,10 @@ header.sticky .navigation a:hover {
 
 /* ------------ WORK ------- */
 .container {
-  padding-top: 10em;
+  padding-top: 8em;
   margin: 12px;
   background-color: #fff;
-  padding-bottom: 12em;
+  padding-bottom: 9em;
 }
 
 .container h2 {
@@ -200,13 +200,8 @@ footer {
   padding: 10px;
 }
 
-span {
-  font-size: 16px;
-}
-
 .footerlink {
   color: #000;
-  text-decoration: none;
 }
 
 .footerlink:hover {
