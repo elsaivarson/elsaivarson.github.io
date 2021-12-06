@@ -106,12 +106,6 @@ header.sticky .navigation a:hover {
   padding-bottom: 4em;
 }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 h2 {
   margin-top: 0;
   margin-bottom: 0;
@@ -136,7 +130,8 @@ p {
 }
 
 section {
-  padding: 0.5vw;
+  padding: 1vw;
+  padding-bottom: 0;
   font-size: 0;
   flex-flow: row wrap;
   display: flex;
@@ -145,7 +140,10 @@ section {
 section div {
   flex: auto;
   width: 600px;
-  margin: 0.5vw;
+  margin-left: 0.4vw;
+  margin-right: 0.4vw;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 section div img {
@@ -216,45 +214,36 @@ foot-container {
 
 /* ------------ RESPONSIVT ------- */
 
-/* ------------ header ipad ------- */
-@media (max-width: 1040px) {
-  .project-hero-container {
-    position: static;
-    display: block;
-    width: 100%;
-    height: fit-content;
-    max-width: none;
-    object-fit: cover;
-  }
-}
-
-/* ------------ header mobile ------- */
-@media (max-width: 450px) {
-  .project-hero-container {
-    position: static;
-    display: block;
-    width: 100%;
-    height: fit-content;
-    max-width: none;
-    object-fit: cover;
+@media (max-width: 640px) {
+  header {
+    padding: 23px 24px;
   }
 
   .column {
-    float: none;
-    padding: 4em;
-    padding-top: 6.5em;
-    padding-right: 4em;
-    padding-bottom: 4em;
+    width: 100%;
+    padding: 1.5em;
   }
 
-  h2 {
-    font-size: 24px;
-    font-weight: 500;
+  .column h2 {
+    margin-top: 62px;
   }
-  p {
-    max-width: 333px;
-    font-size: 12px;
-    line-height: 1.7;
-    font-weight: 400;
+
+  .column p {
+    margin-bottom: 62px;
+    max-width: 75ch;
+  }
+
+  section {
+    padding: 0.1vw;
+  }
+
+  section div {
+    margin: 0.5vw;
+  }
+
+  .next-project {
+    padding-top: 6em;
+    padding-bottom: 6em;
+    text-align: right;
   }
 }

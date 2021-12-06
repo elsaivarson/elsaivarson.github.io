@@ -168,10 +168,26 @@ section div img {
   color: #15151594;
 }
 
+.fa-ul {
+  margin-left: 2em;
+}
+
 li {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  margin-top: 1em;
   font-size: 14px;
+  font-weight: 400;
   line-height: 2rem;
   color: #1c1c1c;
+}
+
+.fa-li {
+  color: #c8fe93;
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 a {
@@ -226,46 +242,28 @@ foot-container {
 }
 
 /* ------------ RESPONSIVT ------- */
-
-/* ------------ header ipad ------- */
-@media (max-width: 1040px) {
-  .project-hero-container {
-    position: static;
-    display: block;
-    width: 100%;
-    height: fit-content;
-    max-width: none;
-    object-fit: cover;
-  }
-}
-
-/* ------------ header mobile ------- */
-@media (max-width: 450px) {
-  .project-hero-container {
-    position: static;
-    display: block;
-    width: 100%;
-    height: fit-content;
-    max-width: none;
-    object-fit: cover;
+@media (max-width: 640px) {
+  header {
+    padding: 23px 16px;
   }
 
   .column {
-    float: none;
-    padding: 4em;
-    padding-top: 6.5em;
-    padding-right: 4em;
-    padding-bottom: 4em;
+    width: 100%;
+    padding: 1.5em;
   }
 
-  h2 {
-    font-size: 24px;
-    font-weight: 500;
+  .column h2 {
+    margin-top: 1.9em;
   }
-  p {
-    max-width: 333px;
-    font-size: 12px;
-    line-height: 1.7;
-    font-weight: 400;
+
+  .column p {
+    margin-bottom: 40px;
+    max-width: 62ch;
+  }
+
+  .fa-ul {
+    margin-left: 1.5em;
+    margin-bottom: 4em;
+    margin-top: -1em;
   }
 }
