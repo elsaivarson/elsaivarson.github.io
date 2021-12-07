@@ -245,5 +245,11 @@ foot-container {
     padding-top: 6em;
     padding-bottom: 6em;
     text-align: right;
+    margin-right: 26px;
+    }
+  }
+  foot-container {
+    padding-left: 18px;
+    padding-right: 18px;
   }
 }

@@ -227,9 +227,9 @@ foot-container {
     transition: 0.5s ease;
   }
   .TopContainer h2 {
-    font-size: 30px;
+    font-size: 34px;
     letter-spacing: 1px;
-    line-height: 1.2em;
+    line-height: 1.16em;
     font-weight: 400;
     margin-top: 3em;
     margin-left: 0em;
@@ -267,7 +267,7 @@ foot-container {
     margin-bottom: 36px;
     border-bottom: 1px solid #e5e5e5;
     padding-bottom: 3px;
-    font-size: 18px;
+    font-size: 19px;
     font-family: "David Libre", serif;
   }
   a {
@@ -282,5 +282,11 @@ foot-container {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+  }
+
+  }
+  foot-container {
+    padding-left: 18px;
+    padding-right: 18px;
   }
 }
